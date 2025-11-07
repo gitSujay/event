@@ -54,7 +54,7 @@ body{font-family: "Zalando Sans", sans-serif; font-optical-sizing: auto;font-wei
 .footer{padding-top: 50px; padding-bottom: 20px; background-color: #fff;}
 .footer .list-inline a{ font-size: 26px; color: #022a7d;}
 .footer .list-inline a:hover{color:#099a77;}
-.back-to-top{ position: fixed; right: 10px; bottom: 10px; font-size: 2rem; width: 3rem; height: 3rem; background-color: #099a77; border-radius: 5px; 
+.back-to-top{ position: fixed; right: 10px; bottom: 10px; font-size: 2rem; width: 3rem; height: 3rem; background-color: #099a77; border-radius: 5px; z-index: 8;
     color:#fff; text-align: center;  display: none; }
 .back-to-top.show{display: block;}
 .back-to-top.show:hover{background-color: var(--inst-theme-color2); color: var(--bs-white); }
@@ -115,4 +115,5 @@ body{font-family: "Zalando Sans", sans-serif; font-optical-sizing: auto;font-wei
     .host{ max-width: 280px; border-radius: 50px;}
     .singerGallery .owl-nav .owl-prev, .videoGallery .owl-nav .owl-prev{left: -10px;}
     .singerGallery .owl-nav .owl-next, .videoGallery .owl-nav .owl-next{ right: -10px;}
+
 }
